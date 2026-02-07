@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Images (embedded as Base64 in script.js)
+images/
+
+# Generated files
+js/base64_images.txt
+
+# Scripts
+js/convertImagesToBase64.js
+js/applyBase64Images.js
+
+# System files
+.DS_Store
+Thumbs.db
