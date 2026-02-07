@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="description"
+        content="A beautiful Rose Day celebration - A journey of love, memories, and forever moments">
+    <meta name="theme-color" content="#ff1744">
+    <title>Happy Rose Day 2026 🌹</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Rose Petals Background -->
+    <div class="petals-container" id="petalsContainer"></div>
+
+    <!-- Main Wrapper -->
+    <div class="app-container">
+
+        <!-- Hero Section -->
+        <header class="hero-section">
+            <div class="hero-content">
+                <div class="rose-icon">🌹</div>
+                <h1 class="hero-title">
+                    <span class="line-1">Happy Rose Day</span>
+                    <span class="line-2">My Love</span>
+                </h1>
+                <p class="hero-subtitle">A celebration of our beautiful journey together</p>
+                <div class="scroll-indicator">
+                    <span>Scroll to explore</span>
+                    <div class="scroll-arrow">↓</div>
+                </div>
+            </div>
+            <div class="hero-overlay"></div>
+        </header>
+
+        <!-- Love Story Timeline -->
+        <section class="timeline-section">
+            <div class="section-header">
+                <h2 class="section-title">Our Love Story</h2>
+                <p class="section-subtitle">Every moment with you is a beautiful memory</p>
+            </div>
+
+            <div class="timeline" id="timeline">
+                <!-- Timeline items will be inserted here by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Photo Gallery -->
+        <section class="gallery-section">
+            <div class="section-header">
+                <h2 class="section-title">Captured Memories</h2>
+                <p class="section-subtitle">Moments that make my heart smile</p>
+            </div>
+
+            <div class="photo-grid" id="photoGrid">
+                <!-- Photos will be inserted here by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Proposal Section -->
+        <section class="proposal-section">
+            <div class="proposal-card">
+                <div class="proposal-rose">🌹</div>
+                <h2 class="proposal-question">Will You Be My Rose?</h2>
+                <p class="proposal-subtitle">Make this day even more special...</p>
+                <div class="proposal-buttons">
+                    <button class="btn-yes" id="btnYes">
+                        <span>Yes! ❤️</span>
+                    </button>
+                    <button class="btn-no" id="btnNo">
+                        <span>No</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Love Message -->
+        <section class="message-section">
+            <div class="message-card">
+                <div class="message-icon">💖</div>
+                <h2 class="message-title">To My Forever Person</h2>
+                <p class="message-text">
+                    Every rose I give you represents a promise - a promise of eternal love,
+                    unwavering support, and endless devotion. You are my sunshine on cloudy days,
+                    my strength when I'm weak, and my greatest adventure. Thank you for being
+                    the love of my life and my best friend. Here's to forever with you.
+                </p>
+                <div class="message-signature">
+                    <span>With all my love,</span>
+                    <span class="signature-heart">♥</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <p class="footer-text">Made with ❤️ for someone special</p>
+                <p class="footer-date">Rose Day 2026</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Celebration Overlay (for Yes response) -->
+    <div class="celebration-overlay" id="celebrationOverlay">
+        <div class="celebration-content">
+            <div class="celebration-icon">💐</div>
+            <h2 class="celebration-title">She Said Yes! 🎉</h2>
+            <p class="celebration-text">Forever starts now...</p>
+        </div>
+    </div>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose">
+            <span>×</span>
+        </button>
+        <button class="lightbox-nav lightbox-prev" id="lightboxPrev">‹</button>
+        <button class="lightbox-nav lightbox-next" id="lightboxNext">›</button>
+        <div class="lightbox-content">
+            <img id="lightboxImage" src="" alt="Memory">
+            <div class="lightbox-caption" id="lightboxCaption"></div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
